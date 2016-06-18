@@ -75,7 +75,7 @@ public class LevelModel extends Observable implements Runnable {
 
 		//TODO hier Abhaengigkeiten zu „Vermittlerobjekten“ anstatt zu tatsaechlich genutzen Objekten
 		
-		this.levelLoadHelper = new LevelLoadHelper(this.levelName);
+		levelLoadHelper = new LevelLoadHelper(this.levelName);
 
 		this.groundGrid = this.levelLoadHelper.getGroundGrid();
 		this.sizeWidth = this.levelLoadHelper.getWidthSizeValue();

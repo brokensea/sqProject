@@ -20,17 +20,7 @@ public abstract class DisplayableElementModel {
 	private static String groupName;
 	private static String stateValue;
 
-	private boolean destructible;
-	private boolean moving;
-	private boolean animate;
-	private boolean impactExplosive;
-	private String spriteName;
-	private int priority;
-	private BufferedImage sprite;
-    private boolean falling;
-	private boolean convertible;
-	private String collideSound;
-
+	
 	/**
 	 * Static dataset
 	 */
